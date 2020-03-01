@@ -70,7 +70,7 @@ public class ZookeeperClient {
                 return seq.sequence();
             }
         } catch (Exception e) {
-            logger.error("获取[{}]Sequence错误:{}",name,e);
+            logger.error("获取[{}]Sequence错误:{}", name, e);
             e.printStackTrace();
         }
         return null;
